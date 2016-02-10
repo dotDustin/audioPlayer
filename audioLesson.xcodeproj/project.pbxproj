@@ -12,6 +12,8 @@
 		C9B06ED01C6AD473001F7FDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B06ECE1C6AD473001F7FDE /* Main.storyboard */; };
 		C9B06ED21C6AD473001F7FDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B06ED11C6AD473001F7FDE /* Assets.xcassets */; };
 		C9B06ED51C6AD473001F7FDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B06ED31C6AD473001F7FDE /* LaunchScreen.storyboard */; };
+		C9B06EDD1C6AD581001F7FDE /* recordplayer.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B06EDC1C6AD581001F7FDE /* recordplayer.png */; };
+		C9B06EDF1C6AD58B001F7FDE /* themesong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9B06EDE1C6AD58B001F7FDE /* themesong.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C9B06ED11C6AD473001F7FDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9B06ED41C6AD473001F7FDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9B06ED61C6AD473001F7FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9B06EDC1C6AD581001F7FDE /* recordplayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = recordplayer.png; path = ../../../../Downloads/recordplayer.png; sourceTree = "<group>"; };
+		C9B06EDE1C6AD58B001F7FDE /* themesong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = themesong.mp3; path = ../../../../Downloads/themesong.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				C9B06ED11C6AD473001F7FDE /* Assets.xcassets */,
 				C9B06ED31C6AD473001F7FDE /* LaunchScreen.storyboard */,
 				C9B06ED61C6AD473001F7FDE /* Info.plist */,
+				C9B06EDC1C6AD581001F7FDE /* recordplayer.png */,
+				C9B06EDE1C6AD58B001F7FDE /* themesong.mp3 */,
 			);
 			path = audioLesson;
 			sourceTree = "<group>";
@@ -125,6 +131,8 @@
 				C9B06ED51C6AD473001F7FDE /* LaunchScreen.storyboard in Resources */,
 				C9B06ED21C6AD473001F7FDE /* Assets.xcassets in Resources */,
 				C9B06ED01C6AD473001F7FDE /* Main.storyboard in Resources */,
+				C9B06EDD1C6AD581001F7FDE /* recordplayer.png in Resources */,
+				C9B06EDF1C6AD58B001F7FDE /* themesong.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,12 +7,56 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
+    @IBOutlet var slider: UISlider!
+    
+    var player: AVAudioPlayer = AVAudioPlayer()
+    
+    
+    @IBAction func playPressed(sender: AnyObject) {
+        
+        player.play()
+        
+    }
+    
+    @IBAction func pausePressed(sender: AnyObject) {
+        
+        player.pause()
+    
+    }
+    
+    @IBAction func stopPressed(sender: AnyObject) {
+    
+        player.pause()
+        player.currentTime = 0
+        
+    }
+    
+    @IBAction func volumeAdjust(sender: AnyObject) {
+        
+        player.volume = slider.value
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //audioPath is an optional, unwrapped now instead of later
+        let audioPath = NSBundle.mainBundle().pathForResource("themesong", ofType: "mp3")!
+        
+        do {
+            
+            try player = AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: audioPath))
+            
+        }catch{
+            
+            //Process for errors if try player failes here
+            
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
